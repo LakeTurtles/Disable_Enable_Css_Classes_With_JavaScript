@@ -244,7 +244,7 @@ header {
 
 .navBtn {
     position: fixed;
-    top: 10%;
+    top: 12%;
     right: 5%;
     font-size: 3.5rem;
     color: var(--brightYellow);
@@ -279,7 +279,7 @@ header {
 }
 
 .nav__links {
-  
+    margin-top: 10px;
     display: grid;
     grid-template-columns: repeat( auto-fit, minmax(250px, 1fr) );
     grid-template-rows: repeat(auto-fill, 1fr);
@@ -310,7 +310,7 @@ background: linear-gradient(333deg, rgba(16,237,100,0.7876284302783614) 0%, rgba
 
 .nav__logo{
 width: 120px;
-
+border-radius: 30px;
 }
 
 
